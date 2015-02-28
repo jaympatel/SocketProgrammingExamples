@@ -59,7 +59,7 @@ if recv1[:3] != "250":
 
 # Send AUTH command to authenticate with the Gmail server and print sesrver response.
 
-userName="jmp840@nyu.edu"                     # To test the program in these two lines replace your username
+userName="email_id_goes_here"                 # To test the program in these two lines replace your email id
 password="password_goes_here"                 # and password
 
 clientSocketSSL.send("AUTH LOGIN "+base64.b64encode(userName)+"\r\n")
